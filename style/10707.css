@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=EB+Garamond);
 
-h2, h3, h4, p, a, ul {
+h2, h3, h4, p, a, ul, body, html {
   -webkit-font-smoothing: antialiased;
   font-family: 'EB Garamond', times, serif;
   font-weight: 400;
@@ -37,7 +37,7 @@ h4 {
 
 
 
-ul, html, body {
+ul {
   color: grey; 
   font-size: 20px; 
 }
