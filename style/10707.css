@@ -37,7 +37,7 @@ h4 {
 
 
 
-ul {
+ul, html, body {
   color: grey; 
   font-size: 20px; 
 }
