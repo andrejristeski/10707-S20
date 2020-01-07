@@ -1,12 +1,74 @@
 @import url(https://fonts.googleapis.com/css?family=EB+Garamond);
 
-h1, h2, h3, h4, p, a, ul {
+h2, h3, h4, p, a, ul {
   -webkit-font-smoothing: antialiased;
   font-family: 'EB Garamond', times, serif;
   font-weight: 400;
   font-variant-ligatures: common-ligatures;
   font-feature-settings: "liga";
   text-rendering: optimizelegibility; }
+
+h2 {
+  font-size: 40px;
+  margin-top: 1rem;
+  margin-bottom: 0px;   
+  color: #004653;
+}
+
+h3 {
+  color: #003153;
+  font-size: 30px;
+  margin: 0 auto;
+  display: inline-block;
+  padding-right: 2rem;
+  padding-left: 2rem; 
+  
+}
+
+h4 {
+  color: #003153;
+  font-size: 20px;
+  margin: 0 auto;
+  display: inline-block;
+  padding-right: 2rem;
+  padding-left: 2rem;
+
+}
+
+
+
+ul {
+  color: grey; 
+  font-size: 20px; 
+}
+
+
+  a {
+  text-decoration: none;
+  
+  color: inherit; }
+
+  a:link {
+  color: #003153;
+  font-weight: 590; 
+  }
+
+  a:visited {
+  color: #003153; 
+  font-weight: 590;
+  }
+
+ 
+
+p {
+  color: grey;
+  font-size: 20px;
+  font-weight: normal;
+  margin-top: 1rem;
+  margin-bottom: 3rem; 
+  margin-left: 2rem;
+ }
+
 
 .navbar {
 background-color: #fff;
