@@ -134,7 +134,7 @@ margin-left: 10px;
 
 /* Real CSS */
 h2, h3, h4 {
-  color: #820000;
+  color: #004653;
 }
 
 .hero-unit {
@@ -159,6 +159,6 @@ section {
 dt {
   font-size: 1.1em;
 }
-.jumbotron{background-color: #D0FBFE!important;padding: 5rem 2rem;
+.jumbotron{background-color: #B6D5F5!important;padding: 5rem 2rem;
  height: 480px;
 }
