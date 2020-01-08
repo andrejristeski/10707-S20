@@ -1,7 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=EB+Garamond);
 
-/* cyrillic-ext */
-@font-face {
+* {
   font-family: 'EB Garamond', times, serif;
   font-style: normal;
   font-weight: 400;
@@ -9,6 +8,8 @@
   font-feature-settings: "liga";
   text-rendering: optimizelegibility; 
 }
+
+
 
 .navbar {
 background-color: #fff;
