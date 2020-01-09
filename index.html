@@ -29,19 +29,21 @@
         <li class="nav-item"><a class="nav-link" href="#logistics"><font color="black">Logistics</font></a></li>
         <li class="nav-item"><a class="nav-link" href="#policies"><font color="black">Policies</font></a></li>
         <li class="nav-item"><a class="nav-link" href="calendar.html"><font color="black">Schedule/Calendar</font></a></li>
-        <li class="nav-item"><a class="nav-link" href="https://piazza.com/class/jqmk74eo45545v"><font color="black">Piazza</font></a></li>
+        <li class="nav-item"><a class="nav-link" href="piazza.com/cmu/spring2020/10707/home"><font color="black">Piazza</font></a></li>
       </ul>
     </div>
   </nav>
 
   <div class="jumbotron jumbotron-fluid">
       <div class="container">
-      <h1 class="display-5">10707 - Deep Learning, Spring 2020</h1>
-      <h2 class="display-7">Instructor:</h2>
+      <h1 class="display-5">10707 - Deep Learning</h1>
+      <h2 class="display-7">Spring 2020</h2><h3>Instructor</h3>
       <div class="row">
         <div class="instructor">
-            <img class="headshot-instructor" src="https://andrejristeski.github.io/10707-S20/photo_math.png" style="text-align:left;">
-            <div style="text-align:left;padding-left: 30px">Andrej Risteski</div>
+          <a href="http://www.cs.cmu.edu/~rsalakhu/">
+            <img class="headshot-instructor" src="https://andrejristeski.github.io/10707-S20/photo_math.png" style="text-align:center;">
+            <div style="text-align:left;padding: 10px">Andrej Risteski</div>
+          </a>
 	<p style="padding:5px"> Email: aristesk [at] andrew [dot] cmu [dot] edu </p>
         </div>
       </div>
@@ -59,37 +61,74 @@
 	  <br />
 
 <p>
-Models that are capable of extracting complex, hierarchical representations from high-dimensional data lie at the core of solving many ML and AI domains, such as visual object recognition, information retrieval, natural language processing, and speech perception. While the usefulness of such <b> deep learning </b> techniques is undisputed, our understanding of them is still in many ways nascent. The goal of this course is to introduce students to recent and exciting developments (both theoretical and practical) in these methods. 
-<br> This is an advanced graduate course, designed for Masters and Ph.D. level students, and will assume a substantial degree of mathematical maturity.
-</p>
+Building intelligent machines that are capable of extracting meaningful representations from high-dimensional data lies at the core of solving many AI related tasks. In the past few years, researchers across many different communities, from applied statistics to engineering, computer science and neuroscience, have developed deep (hierarchical) models -- models that are composed of several layers of nonlinear processing. An important property of these models is that they can learn useful representations by re-using and combining intermediate concepts, allowing these models to be successfully applied in a wide variety of domains, including visual object recognition, information retrieval, natural language processing, and speech perception. This is an advanced graduate course, designed for Masters and Ph.D. level students, and will assume a reasonable degree of mathematical maturity. The goal of this course is to introduce students to the recent and exciting developments of various deep learning methods.</p>
 	 
 <p> This course covers some of the theory and methodology of deep learning.  The preliminary set of topics to be covered include: </p>
 <ul>
-<li>  <b> Supervised Learning </b> 
+<li>  <b> Introduction </b> 
 <ul>
 
-<li> Representational power of neural networks: universal approximation, depth separation. Modern architectures (ResNet, DenseNet).  
-</li><li> Generalization in neural networks: classical bounds and modern phenomena.  
-</li><li> Optimization for deep learning: backpropagation, momentum and second-order methods. 
-</li>
-</ul> 
+<li> Background: Linear Algebra, Distributions, Rules of probability.
+</li><li> Regression, Classification.
+
+</li><li> Feedforward neural nets, backpropagation algorithm.
+Introduction to popular optimization and regularization techniques.
+
+</li><li> Convolutional models with applications to computer vision.
+
+</li></ul> 
 <br>
 
-</li><li> <b> Unsupervised learning </b>
+
+</li><li> <b> Deep Learning Essentials </b>
 <ul>
-<li> Classical topics: graphical models, latent-variable models, variational inference, MCMC. 
-</li><li> Autoregressive models, autoencoders. 
-</li><li> Generative adversarial networks. 
-</li><li> Self-supervised/predictive learning. 
+<li> Graphical Models: Directed and Undirected.
+
+</li><li> Linear Factor Models, PPCA, FA, ICA,
+Sparse Coding and its extensions.
+
+</li><li> Autoencoders and its extensions.
+Energy-based models, RBMs.
+
+</li><li> 
+Monte Carlo Methods.
+
+</li><li> 
+Learning and Inference:
+Contrastive Divergence (CD), Stochastic
+Maximum Likelihood Estimation, Score Matching, Ratio Matching,
+Pseud-likelihood Estimation,
+Noise-Contrastive Estimation.
+
+</li><li> Annealed Importance Sampling,
+Partition Function Estimation.
+
+
+</li><li> Deep Generative Models:
+Deep Belief Networks, Deep Boltzmann Machines,
+Helmholtz Machines, Variational Autoencoders,
+Importance-weighted Autoencoders,
+Wake-Sleep Algorithm.
+
+</li><li> Generative Adversarial Networks (GANs), Generative Moment Matching Nets,
+Neural Autoregressive Density Estimator (NADE).
 </li></ul> 
 <br>
 
 </li>
 
-<li> <b>  Language models
+<li> <b>  Additional Topics
 </b> 
 <ul> 
-<li> Word embeddings, Recurrent Neural Networks, Sequence-to-Sequence Architectures, Attention models.
+
+<li> More on Regularization and Optimization in Deep Nets.
+
+</li><li> Sequence Modeling: Recurrent Neural Networks.
+Sequence-to-Sequence Architectures, Attention models.
+
+</li><li> 
+Deep Reinforcement Learning.
+
 </li></ul></li>
 <br>
 </div>
@@ -100,29 +139,26 @@ Models that are capable of extracting complex, hierarchical representations from
     <h2>Logistics</h2>
 	    <br />
 <dt>Time and Location</dt><dd>Monday, Wednesday 1:30 - 2:50pm <a href="https://goo.gl/maps/6YLndu7uCy42">GHC 4401 Rashid Auditorium</a></dd>
-      <dt>Contact Information</dt><dd>If you have a question, to get a response from the teaching staff quickly we strongly encourage you to post it to the class <a href="https://piazza.com/class/k4nicipxdd61vc">Piazza forum</a>.
-      For private matters, please make a private note visible only to the course instructors or contact the course Education Associate Daniel Bird (dpbird@andrew.cmu.edu).
-      For longer discussions with TAs and to get help in person, we strongly encourage you to come to office hours.
+      <dt>Contact Information</dt><dd>If you have a question, to get a response from the teaching staff quickly we strongly encourage you to post it to the class <a href="piazza.com/cmu/spring2020/10707/home">Piazza forum</a>. For private matters, please make a private note visible only to the course instructors or contact the course Education Associate Daniel Bird (dpbird@andrew.cmu.edu). For longer discussions with TAs and to get help in person, we strongly encourage you to come to office hours.
       </dd>
 
       <dt>Office Hours</dt>
       <dd><em>Office hours can be found <a href="./calendar.html">here</a>.</em></dd>
 
-      <dt>Assistant Instructor</dt>
+      <dt>Education Associate</dt>
       <div class="row">
         <div class="instructor">
-          <a href="https://www.linkedin.com/in/brynn-edmunds-36834483/">
-            <img class="headshot" src="static/brynn.jpg" style="text-align:center;">
-            <div style="text-align:center;">David Byrd</div>
+            <img class="headshot" src="static/DanielBird.png" style="text-align:center;">
+            <div style="text-align:center;">Daniel Bird</div>
           </a>
         </div>
       </div>
       <dt>Teaching Assistants</dt>
       <div class="row">
         <div class="instructor">
-          <a href="https://abhimohta.github.io/">
-            <img class="headshot" src="static/abhishek.png" style="text-align:center;">
-            <div style="text-align:center;font-size: 90%;">Abhishek Mohta</div>
+          <!-- <a href="https://abhimohta.github.io/"> -->
+            <img class="headshot" src="static/ZehaoGuan.jpg" style="text-align:center;">
+            <div style="text-align:center;font-size: 90%;">Zehao Guan</div>
           </a>
         </div>
         <div class="instructor">
@@ -131,9 +167,9 @@ Models that are capable of extracting complex, hierarchical representations from
           </a>
         </div>
         <div class="instructor">
-          <a href="http://ankitshah009.github.io/">
-            <img class="headshot" src="static/ankit.png" style="text-align:center;">
-            <div style="text-align:center;font-size: 90%;">Ankit Shah<br></div>
+          <!-- <a href="http://ankitshah009.github.io/"> -->
+            <img class="headshot" src="static/NitinramVelraj.jpg" style="text-align:center;">
+            <div style="text-align:center;font-size: 90%;">Nitinram Velraj<br></div>
           </a>
         </div>
         <div class="instructor">
@@ -142,9 +178,9 @@ Models that are capable of extracting complex, hierarchical representations from
           </a>
         </div>
         <div class="instructor">
-          <a href="https://www.linkedin.com/in/bifei-liu-246b0a156/">
-            <img class="headshot" src="static/bifei.jpg" style="text-align:center;">
-            <div style="text-align:center;font-size: 90%;">Bifei Liu</div>
+          <!-- <a href="https://www.linkedin.com/in/bifei-liu-246b0a156/"> -->
+            <img class="headshot" src="static/ElanRosenfeld.jpg" style="text-align:center;">
+            <div style="text-align:center;font-size: 90%;">Elan Rosenfeld</div>
           </a>
         </div>
         <div class="instructor">
@@ -153,9 +189,9 @@ Models that are capable of extracting complex, hierarchical representations from
           </a>
         </div>
         <div class="instructor">
-          <a href="https://www.linkedin.com/in/chunyan-bai/">
-            <img class="headshot" src="static/chunyan.jpg" style="text-align:center;">
-            <div style="text-align:center;font-size: 90%;">Chunyan Bai</div>
+          <!-- <a href="https://www.linkedin.com/in/chunyan-bai/"> -->
+            <img class="headshot" src="static/WanheZhao.jpg" style="text-align:center;">
+            <div style="text-align:center;font-size: 90%;">Wanhe Zhao</div>
           </a>
         </div>
         <div class="instructor">
@@ -164,9 +200,9 @@ Models that are capable of extracting complex, hierarchical representations from
           </a>
         </div>
         <div class="instructor">
-          <a href="https://www.linkedin.com/in/jeremy-cohen-a7333aa0/">
-            <img class="headshot" src="static/jeremy.jpg" style="text-align:center;">
-            <div style="text-align:center;font-size: 90%;">Jeremy Cohen</div>
+          <!-- <a href="https://www.linkedin.com/in/jeremy-cohen-a7333aa0/"> -->
+            <img class="headshot" src="static/SenyuTong.jpg" style="text-align:center;">
+            <div style="text-align:center;font-size: 90%;">Senyu Tong</div>
           </a>
         </div>
         <div class="instructor">
@@ -175,9 +211,9 @@ Models that are capable of extracting complex, hierarchical representations from
           </a>
         </div>
         <div class="instructor">
-          <a href="https://www.linkedin.com/in/manisha-chaurasia-7567b183/">
-            <img class="headshot" src="static/manisha.jpg" style="text-align:center;">
-            <div style="text-align:center;font-size: 90%;">Manisha Chaurasia</div>
+          <!-- <a href="https://www.linkedin.com/in/manisha-chaurasia-7567b183/"> -->
+            <img class="headshot" src="static/RuitaoYi.jpg" style="text-align:center;">
+            <div style="text-align:center;font-size: 90%;">Ruitao Yi</div>
           </a>
         </div>
         <div class="instructor">
@@ -186,9 +222,9 @@ Models that are capable of extracting complex, hierarchical representations from
           </a>
         </div>
         <div class="instructor">
-          <a href="http://namyongpark.com/">
-            <img class="headshot" src="static/namyongpark.png" style="text-align:center;">
-            <div style="text-align:center;font-size: 90%;">Namyong Park</div>
+          <!-- <a href="http://namyongpark.com/"> -->
+            <img class="headshot" src="static/ZihaoChen.png" style="text-align:center;">
+            <div style="text-align:center;font-size: 90%;">Zihao Chen</div>
           </a>
         </div>
         <div class="instructor">
@@ -197,9 +233,9 @@ Models that are capable of extracting complex, hierarchical representations from
           </a>
         </div>
         <div class="instructor">
-          <a href="http://rishub.me/">
-            <img class="headshot" src="static/Rishub.jpg" style="text-align:center;">
-            <div style="text-align:center;font-size: 90%;">Rishub Jain</div>
+          <!-- <a href="http://rishub.me/"> -->
+            <img class="headshot" src="static/XiangKong.jpg" style="text-align:center;">
+            <div style="text-align:center;font-size: 90%;">Xiang Kong</div>
           </a>
         </div>
         <div class="instructor">
@@ -208,9 +244,9 @@ Models that are capable of extracting complex, hierarchical representations from
           </a>
         </div>
         <div class="instructor">
-          <a href="https://www.linkedin.com/in/th%C3%A9ophile-gervet-2633526a/">
-            <img class="headshot" src="static/theo.jpg" style="text-align:center;">
-            <div style="text-align:center;font-size: 90%;">Théophile Gervet</div>
+          <!-- <a href="https://www.linkedin.com/in/th%C3%A9ophile-gervet-2633526a/"> -->
+            <img class="headshot" src="static/PhalgunaDasarathaMankar.jpg" style="text-align:center;">
+            <div style="text-align:center;font-size: 90%;">Phalguna Dasaratha Mankar</div>
           </a>
         </div>
         <div class="instructor">
@@ -219,12 +255,12 @@ Models that are capable of extracting complex, hierarchical representations from
           </a>
         </div>
         <div class="instructor">
-          <a href="https://www.linkedin.com/in/xinyu-huang-cmu/">
-            <img class="headshot" src="static/xinyu.jpg" style="text-align:center;">
-            <div style="text-align:center;font-size: 90%;">Xinyu Huang</div>
+          <!-- <a href="https://www.linkedin.com/in/xinyu-huang-cmu/"> -->
+            <img class="headshot" src="static/ShuhaoRen.jpg" style="text-align:center;">
+            <div style="text-align:center;font-size: 90%;">Shuhao Ren</div>
           </a>
         </div>
-        <div class="instructor">
+        <!-- <div class="instructor">
           <dt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</dt>
           <a href="#">
           </a>
@@ -239,62 +275,59 @@ Models that are capable of extracting complex, hierarchical representations from
           <dt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</dt>
           <a href="#">
           </a>
-        </div>
+        </div> -->
       </div>
     <dt>Prerequisites </dt>
     <dd>
-Students are expected to have mathematical maturity, as well as a strong background in linear algebra, machine learning, and statistics/probability theory. 
+    Students are expected to have the strong background 
     <ul>
-    10315 or 10401 or 10715 or 10701 or 10601 must be satisfied to take the course.
- <br> 
-    Have a basic understanding of coding (Python preferred) as the course will have coding elements. <br> 
-    </ul>
+	<li> Have the strong background in linear algebra, machine learning, and statists and probability theory.
+	<li> Have successfully taken 10315, 10401, 10715, 10701 or 10601.	
+	<li> Finally have a basic understanding of coding (Python preferred) as this will be a coding intensive course.
+	<ul> 
     </dd>
 
     <dt>Course Materials</dt>
-    <dd>Homework assignments will be announced on Piazza when released. Slides will be posted periodically on the <a href="syllabus.html">class syllabus</a>. Instructor will try to upload slides before class and additional readings will posted whenever appropriate. 
-</dd>
+    <dd>Homework assignments will be announced on Piazza when released. Slides will be posted periodically on the course website. The instructor will try to upload slides before class, and additional readings will be posted whenever possible. </dd>
     </div>
  </section>
 <section id="projects">
 <div class="container">
 
-<br/> 
+<br/>
     <h4>Assignments and Grading</h4>
-<br/>	
-	<dd> <b> Assignments:</b> There will be two types of assigments --- problem sets (written, mathematical in nature) and coding assignments. The tentative schedule of release and due dates can be seen in the Syllabus. 
-        Latex templates will be released with the homework for students to complete with their solutions.  
-		<br>    <b>Exams:</b> The course will have two midterm exams which are scheduled to be hosted on Febuary 12th and April 1st. There will be a final exam scheduled during finals week, the official date of which will be announced as soon as it is confirmed.
-<br>
-		<b>Course grades:</b>will be made up of assignments (<b>45%</b> in total), 2 midterms (<b>15%</b> each), and one ﬁnal exam (<b>25%</b>). 
-</dd>
-      <dt> Homework Assignments </dt>
-
-The assignments are to be done by each student individually. You may discuss the general idea of the questions with anyone you like, but your discussion may not include the specific answers to any of the problems and when writing your solutions you must close all notes and write the answer entirely yourself. 
-
-    <dt>Submitting Assignments</dt>
-    <dd> Assignments will be submitted through Gradescope. Additionally, you should upload your code to Autolab.<br>
-Writeups should be typeset in Latex and should be submitted in PDF form. All code should be submitted with a README file with instructions on how to execute your code.
-You will receive an invite to Gradescope for 10707 Deep Learning Spring 2019 by 01/08/2019. Login via the invite. If you have not received an invite, please email Daniel Bird <a href="mailto:dpbird@andrew.cmu.edu">dpbird@andrew.cmu.edu</a> with details of your Andrew email address and your full name.
-</dd>
-
-<br>
-<h3>Marking</h3>
-As a general rule, matters of marking on assignments (apparent errors, questions about evaluation criteria, etc.) should be taken to the marker (via Gradescope Regrade Request). Matters of marking on tests and exams should be taken to the professor.
-<br> 
 	
+    <dd><b>Assignments:</b> There will be two types of assignments -- problem sets (written, mathematical in nature) and coding assignments. The tentative schedule of release and due dates can be seen in the Syllabus. Latex templates will be released with the homework for students to complete with their solutions.  <br>
+	<b>Exams:</b> The course will have two midterm exams which are scheduled to be hosted on Febuary 12th and April 1st. There will be a final exam scheduled during finals week, the official date of which will be announced as soon as it is confirmed.<br>
+    <b>Course grades:</b> Will be made up of assignments (45% in total), 2 midterms (15% each), and one ﬁnal exam (25%). </dd>
+     
+	 
+	<dt> Homework Assignments </dt>
+	The assignments are to be done by each student individually. You may discuss the general idea of the questions with anyone you like, but your discussion may not include the specific answers to any of the problems and when writing your solutions you must close all notes and write the answer entirely yourself. 
+	
+	<br/>
+    <dt/>Submitting Assignments</dt>
+    <dd> Assignments will be submitted through Gradescope. Additionally, you should upload your code to Autolab.
+	Writeups should be typeset in Latex and should be submitted in PDF form. All code should be submitted with a README file with instructions on how to execute your code. You will receive an invite to Gradescope for 10707 Deep Learning Spring 2019 by 01/08/2019. Login via the invite.If you have not received an invite, please email Daniel Bird (dpbird@andrew.cmu.edu) with details of your Andrew email address and your full name.</dd>
+
+
+	<dt>Marking</dt>
+	<dd> As a general rule, matters of marking on assignments and exams (apparent errors, questions about evaluation criteria, etc.) should be taken to the marker (via Gradescope Regrade Request). </dd>
+
 <p>
 </div>
 </section>
 <section id="policies">
 <div class="container">
-<h3 id="6-general-policies">General Policies</h3>
+<h4 id="6-general-policies">General Policies</h4>
+<dt> Grace Day/Late Homework Policy </dt>
+Homeworks: Each student will have a total of 5 grace days that a student may choose to apply to the homework assignments. 
+No more than 3 grace days can be used on any single assignment. </br>
+Homeworks submitted late when the student has no Grace days remaining or 3 days past the deadline will be given a score of 0.
 <br>
-<h4> Grace Day/Late Homework Policy </h4>
-Each student will have a total of 5 grace days that a student may choose to apply to the homework assignments. No more than 3 grace days can be used on any single assignment. 
-<b> Note: Homeworks submitted late when the student has no Grace days remaing or 3 days past the deadline will be given a score of 0.</b>
 
-<h4 id="extensions">Extensions</h4>
+
+<dt id="extensions">Extensions</dt>
 <p>In general, we do not grant extensions on assignments. There are several exceptions:</p>
 <ul>
   <li><strong>Medical Emergencies:</strong> If you are sick and unable to complete an
@@ -319,13 +352,11 @@ confirmation of your attendance, usually from a faculty or staff
 organizer of the event.</li>
 </ul>
 
-<p>For any of the above situations, you may request an extension <strong>by
-emailing the assistant instructor(s) at <a href="mailto:dpbird@andrew.cmu.edu">dpbird@andrew.cmu.edu</a> – do not email
-the instructor or TAs</strong>. The email should be sent as soon as you are
-aware of the conflict and at least <strong>5 days prior to the
-deadline</strong>. In the case of an emergency, no notice is needed.</p>
+<p>For any of the above situations, you may request an extension by emailing the Educational Associate Daniel Bird at dpbird@andrew.cmu.edu
+ – do not email the instructor or TAs. The email should be sent as soon as you are aware of the conflict and at least 5 days prior to the deadline.
+ In the case of an emergency, no notice is needed.</p>
 
-<h4 id="audit-policy">Audit Policy</h4>
+<dt id="audit-policy">Audit Policy</dt>
 
 <p>Official auditing of the course (i.e. taking the course for an “Audit”
 grade) is not permitted this semester.</p>
@@ -338,22 +369,20 @@ one available <em>10 minutes after the start of class</em>. Unofficial auditors
 will not be given access to course materials such as homework
 assignments and exams.</p>
 
-<h4 id="passfail-policy">Pass/Fail Policy</h4>
+<dt id="passfail-policy">Pass/Fail Policy</dt>
 
 <p>We allow you take the course as Pass/Fail. Instructor permission is
 not required. What grade is the cutoff for Pass will depend on your
 program. Be sure to check with your program / department as to whether
 you can count a Pass/Fail course towards your degree requirements.</p>
 
-<h4 id="accommodations-for-students-with-disabilities">Accommodations for Students with Disabilities:</h4>
+<dt id="accommodations-for-students-with-disabilities">Accommodations for Students with Disabilities:</dt>
 
-<p>If you have a disability and have an accommodations letter from the
-Disability Resources office, I encourage you to discuss your
-accommodations and needs with me as early in the semester as
-possible. I will work with you to ensure that accommodations are
-provided as appropriate. If you suspect that you may have a disability
-and would benefit from accommodations but are not yet registered with
-the Office of Disability Resources, I encourage you to contact them at
+<p>If you have a disability and have an accommodation letter from the Disability Resources office, I encourage 
+you to discuss your accommodations and needs with Daniel Bird (dpbird@andrew.cmu.edu) as early in the semester 
+as possible. We will work with you to ensure that accommodations are provided as appropriate. If you suspect that 
+you may have a disability and would benefit from accommodations but are not yet registered with the Office of 
+Disability Resources, I encourage you to contact them at 
 <a href="mailto:access@andrew.cmu.edu">access@andrew.cmu.edu</a>.</p>
 
 <h4 id="7-academic-integrity-policies">Academic Integrity Policies</h4>
@@ -362,7 +391,7 @@ the Office of Disability Resources, I encourage you to contact them at
 
 <p>(Adapted from Roni Rosenfeld’s <a href="http://www.cs.cmu.edu/~roni/10601/">10-601 Spring 2016</a> Course Policies.)</p>
 
-<h4 id="collaboration-among-students">Collaboration among Students</h4>
+<dt id="collaboration-among-students">Collaboration among Students</dt>
 
 <ul>
   <li>The purpose of student collaboration is to facilitate learning, not to circumvent it. Studying the material in groups is strongly encouraged. It is also allowed to seek help from other students in understanding the material needed to solve a particular homework problem, provided no written notes (including code) are shared, or are taken at that time, and provided learning is facilitated, not circumvented. The actual solution must be done by each student alone.</li>
@@ -392,21 +421,21 @@ the Office of Disability Resources, I encourage you to contact them at
   <li>Collaboration without full disclosure will be handled severely, in compliance with <a href="https://www.cmu.edu/policies/student-and-student-life/academic-integrity.html">CMU’s Policy on Academic Integrity</a>.</li>
 </ul>
 
-<h4 id="previously-used-assignments">Previously Used Assignments</h4>
+<dt id="previously-used-assignments">Previously Used Assignments</dt>
 
 <p>Some of the homework assignments used in this class may have been used in prior versions of this class, or in classes at other institutions, or elsewhere. Solutions to them may be, or may have been, available online, or from other people or sources.  It is explicitly forbidden to use any such sources, or to consult people who have solved these problems before.  It is explicitly forbidden to search for these problems or their solutions on the internet.  You must solve the homework assignments completely on your own. We will be actively monitoring your compliance.  Collaboration with other students who are currently taking the class is allowed, but only under the conditions stated above.</p>
 
-<h4 id="policy-regarding-found-code">Policy Regarding “Found Code”:</h4>
+<dt id="policy-regarding-found-code">Policy Regarding “Found Code”:</dt>
 
 <p>You are encouraged to read books and other instructional materials, both online and offline, to help you understand the concepts and algorithms taught in class. These materials may contain example code or pseudo code, which may help you better understand an algorithm or an implementation detail. However, when you implement your own solution to an assignment, you must put all materials aside, and write your code completely on your own, starting “from scratch”. Specifically, you may not use any code you found or came across. If you find or come across code that implements any part of your assignment, you must disclose this fact in your collaboration statement.</p>
 
-<h4 id="duty-to-protect-ones-work">Duty to Protect One’s Work</h4>
+<dt id="duty-to-protect-ones-work">Duty to Protect One’s Work</dt>
 
 <p>Students are responsible for pro-actively protecting their work from copying and misuse by other students. If a student’s work is copied by another student, the original author is also considered to be at fault and in gross violation of the course policies. It does not matter whether the author allowed the work to be copied or was merely negligent in preventing it from being copied. When overlapping work is submitted by different students, both students will be punished.</p>
 
 <p>To protect future students, do not post your solutions publicly, neither during the course nor afterwards.</p>
 
-<h4 id="penalties-for-violations-of-course-policies">Penalties for Violations of Course Policies</h4>
+<dt id="penalties-for-violations-of-course-policies">Penalties for Violations of Course Policies</dt>
 
 <p>All violations (even first one) of course policies will always be
 reported to the university authorities (your Department Head,
@@ -451,7 +480,7 @@ can even lead to dismissal from the university.</p>
 <hr />
 
     <h3> Contact Information </h3>
-	<p> Email: aristesk [at] andrew [dot] cmu [dot] edu </p>
+	<p> Email: dpbird [at] andrew [dot] cmu [dot] edu </p>
   </div>
   </section>
 
